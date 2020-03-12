@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const JornayaComponent = ({ jornayaToken, onGetUniversalLeadId }) => {
     useEffect(() => {
-        if (typeof window !== "undefined") {
+        if (typeof window !== 'undefined') {
             window.setUniversalLeadId = onGetUniversalLeadId;
             const script = document.createElement('script');
             script.id = 'LeadiDscript_campaign';

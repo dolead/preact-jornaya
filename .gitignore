@@ -1,8 +1,2 @@
-# Compiled binary
-lib/
-
 # Dependency directories
 node_modules/
-
-# Lock created by build
-package-lock.json
