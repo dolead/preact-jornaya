@@ -1,0 +1,31 @@
+{
+  "name": "preact-jornaya",
+  "version": "1.0.0",
+  "description": "Simple Preact Component to integrate Jornaya UniverlsalLeadId processes into any Preact app",
+  "homepage": "https://github.com/dolead/preact-jornaya",
+  "keywords": [
+    "Preact",
+    "Jornaya",
+    "npm"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolead/preact-jornaya.git"
+  },
+  "license": "MIT",
+  "main": "./lib/JornayaComponent.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "bugs": {
+    "url": "https://github.com/dolead/preact-jornaya/issues"
+  },
+  "dependencies": {
+    "preact": "^10.3.4",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "babel-loader": "^8.0.6"
+  }
+}
